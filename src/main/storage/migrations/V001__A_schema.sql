@@ -4,5 +4,5 @@ CREATE TABLE event
     created_at INT         NOT NULL,
     kind       INT         NOT NULL,
     tags       jsonb       NOT NULL,
-    content    TEXT        NOT NULL,
+    content    TEXT        NOT NULL
 );
